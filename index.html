@@ -15,32 +15,34 @@
                 <h4>Apple buying data</h4>
                 <label for="priceOfBox">
                     Cost for box of apples
-                    <input type="number">
+                    <input class="box" type="number">
                 </label>
                 <label>
                     Number of apples in a box
-                    <input type="number">
+                    <input class = "apples" type="number">
                 </label>
                 <label>
                     Packet size apples are sold in
-                    <input type="number">
+                    <input class="size" type="number">
                 </label>
                 <label>
                     Required profit %
-                    <input type="number">
+                    <input class="profit" type="number">
                 </label>
             </div>
-            <button>Calculate</button>
+            <button class="button">Calculate</button>
             <div class="estimates">
                 <h4>Apple price calculation</h4>
                 <div class="tags">
-                    number of packets <span>hfd</span> <br>
-                    cost price per apple <span>54</span><br>
-                    cost price per packet <span>78</span> <br>
-                    recommended cost price <span>45</span><br>  
+                    number of packets <span class="packets">hfd</span><br>
+                    cost price per apple <span class="price">54</span><br>
+                    cost price per packet <span class="perPacket">78</span><br>
+                    recommended packet price <span class="cost">45</span><br>  
                 </div>
             </div>
         </form>
     </div>
+    <script src="js/apple-packet-price.js"></script>
+    <script src="js/apple-packect-DOM.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 body{
     font-family: 'Roboto Mono', monospace;
 }
@@ -23,10 +24,13 @@ form{
 .estimates{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 50px 0 0 10px;
 }
 span{
     background: grey;
+    float: right;
+    height: 20px;
+    padding-left: 80px;
 }
 input{
     float: right;
