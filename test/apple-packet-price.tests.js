@@ -40,13 +40,13 @@
 
          it("It should be able to calculate cost price per packet" , function(){
             const applePricing = ApplePacketPrice();
-            applePricing.costPricePerPacket(1.25, 10);
-            assert.equal(12.5, applePricing.getCostPricePerPacket());
+            applePricing.costPricePerPacket(150, 10);
+            assert.equal(15, applePricing.getCostPricePerPacket());
          });
 
          it("It should be able to calculate recommended price" , function(){
             const applePricing = ApplePacketPrice();
-            applePricing.recommendedPrice(12.5, 50);
-            assert.equal(17.5, applePricing.getRecommendedPrice());
+            applePricing.recommendedPrice(150, 10, 50);
+            assert.equal(20, applePricing.getRecommendedPrice());
          });
     });

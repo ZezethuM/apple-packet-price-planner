@@ -51,19 +51,19 @@ function ApplePacketPrice(){
         costPerApple = box / applesInBox;
     }
     function getCostPricePerApple(){
-        return costPerApple;
+        return "R" + costPerApple;
     }
-    function costPricePerPacket(costPerApple, packetSize){
-        costPerPacket = costPerApple * packetSize;
+    function costPricePerPacket(box, packetSize){
+        costPerPacket = box / packetSize;
     }
     function getCostPricePerPacket(){
-        return costPerPacket;
+        return "R" + costPerPacket;
     }
-    function recommendedPrice(costPerPacket, profit){
-        recommendedSellingPrice = costPerPacket + (profit * 0.1);
+    function recommendedPrice(box, packetSize, profit){
+        recommendedSellingPrice = (box / packetSize) + (profit * 0.1);
     }
     function getRecommendedPrice(){
-        return recommendedSellingPrice;
+        return "R" + recommendedSellingPrice;
     }
     return {
         setValues,

@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
+    background: bisque;
 }
 
 .container{
@@ -11,7 +12,7 @@ body{
     height: 100vh;
 
 }
-form{
+.innerContainer{
     background-color: limegreen;
     height: 100vh;
     
@@ -26,11 +27,18 @@ form{
     flex-direction: column;
     margin: 50px 0 0 10px;
 }
+h1{
+    text-align: center;
+}
 span{
     background: grey;
     float: right;
     height: 20px;
-    padding-left: 80px;
+    width: 200px;
+    /* padding-right: 0px;
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 1px; */
 }
 input{
     float: right;
