@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+form{
+    background-color: limegreen;
+    height: 100vh;
+    
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.estimates{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+span{
+    background: grey;
+}
+input{
+    float: right;
+    margin-bottom: 20px;
+}
+button{
+    float: right;
+    margin: 10px;
+    width: 185px;
+}
